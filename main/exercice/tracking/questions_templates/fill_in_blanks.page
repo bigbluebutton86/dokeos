@@ -1,0 +1,30 @@
+<h3>
+	<?php echo $this->question ?> <i>(<?php echo get_lang('FillBlanks') ?>)</i>
+</h3>
+<table class="data_table">
+	<tr class="row_odd">
+		<th width="30"></th>
+		<th><?php echo get_lang('Answer') ?></th>
+		<th width="200"></th>
+		<th width="50"><?php echo get_lang('Percent') ?></th>
+		<th width="50"><?php echo get_lang('Total') ?></th>
+	</tr>
+	<tr class="row_even">
+		<td align="center" valign="middle"><img src="<?php echo api_get_path(WEB_IMG_PATH) ?>checkok.png" /></td>
+		<td><?php echo get_lang('GoodAnswer') ?></td>
+		<td>
+			<?php Graphics::insert_static_progress_bar($stats['correct']['average'], 200); ?>
+		</td>
+		<td><?php echo number_format($stats['correct']['average'], 0) ?>%</td>
+		<td><?php echo intval($stats['correct']['total']) ?></td>
+	</tr>
+	<tr class="row_even">
+		<td></td>
+		<td><?php echo get_lang('WrongAnswer') ?></td>
+		<td>
+			<?php Graphics::insert_static_progress_bar($stats['wrong']['average'], 200); ?>
+		</td>
+		<td><?php echo number_format($stats['wrong']['average'], 0) ?>%</td>
+		<td><?php echo intval($stats['wrong']['total']) ?></td>
+	</tr>
+</table>

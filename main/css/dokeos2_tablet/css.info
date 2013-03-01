@@ -1,0 +1,8 @@
+name        = Dokeos 2 tablet
+description = Css style with support for tablets and mobile devices
+type        = tablet
+core   = 2.x
+engine = phptemplate
+version = "2.1"
+project = "dokeos 2.1"
+datestamp = "2209111805"

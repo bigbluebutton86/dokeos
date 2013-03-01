@@ -1,0 +1,181 @@
+/*------------Header------------*/
+#courseHeader
+{
+	background:url('images/bg_header.gif') repeat-x 0 0 #D6D6D6;
+	height:46px;
+	position:relative;
+	z-index: 0;
+}
+#courseHeaderFullScreen
+{
+  background:url('images/bg_header.gif') repeat-x 0 0 #D6D6D6;
+  height:21px;
+  position:relative;
+  z-index: 0;
+}
+
+#courseHeaderFullScreen div {
+  color:#ffffff;
+}
+
+#courseHeader #courseTitle
+{
+	position:relative;
+	background:url('images/bg_title_l.gif') no-repeat;
+	float:left;
+	height:46px;
+	width:600px;
+	z-index:90;
+}
+
+#courseHeader #courseTitle div.container
+{
+	font-size:18px;
+    margin:0px 0px 0px -40px;
+    padding:10px 0px 0px 0px;
+    position:relative;
+    text-align:center;
+    width:600px;
+    z-index:91;
+}
+
+#courseHeader #bg_end_title
+{
+	position:relative;
+	float:left;
+	background:url('images/bg_title_r.gif') no-repeat right 0;
+	height:46px;
+	top:0;
+	width:100px;
+	z-index:1;
+}
+
+#courseHeader #left
+{
+	position:relative;
+	float:left;
+	height:46px;
+	width:120px;
+	z-index: 9;
+}
+
+#courseHeader #right
+{
+	position:relative;
+	background:url('images/bg_header.gif')repeat-x 0 0;
+	float:left;
+	height:46px;
+	width:120px;
+	z-index:2;
+}
+
+/*------------progress bar------------*/
+#courseHeader #progressBar		{
+	background-color:#fff;
+	border:solid 1px #CCCCCC;
+	height:18px;
+	position:absolute;
+	overflow:hidden;
+	right:-100px;
+	top:15px;
+	width:100px;
+	z-index:3;
+}
+
+#courseHeader #percent
+{
+	background:url('images/bg_progress_bar.gif') repeat-x 0 0;
+	height:20px;
+	left:0;
+	position:absolute;
+}
+
+.course_main_home_button
+{
+	z-index: 10;
+}
+.course_menu_button{
+	width: 30px;
+	height: 36px;
+}
+#courseMenuButton{
+	background:url('images/menu_button.gif');
+	width: 30px;
+	height: 36px;
+}
+#coursenextbutton{
+	background:url('images/next_button.gif');
+	height: 36px;
+	width: 37px;
+}
+#coursepreviousbutton{
+	background:url('images/prev_button.gif');
+	height: 36px;
+	width: 31px;
+}
+
+#learningPathMain {
+	background-color: #FFFFFF;
+	border:1px solid #b8b8b6;
+	border-radius:5px;
+	-moz-border-radius: 5px;
+	-webkit-border-radius: 5px;	
+	height:700px;			/* read by IE6 as min-height */
+	padding: 10px;
+	vertical-align:middle;
+	width: auto;
+	zoom:1;
+}
+
+html>body #learningPathMain {		/* not read by IE6 as min-height */
+	height:auto;
+	min-height: 700px;
+	overflow:hidden;
+}
+
+.scorm_title_text {
+	font-size:14px;
+	color:#EC690F;
+}
+
+/*------------ToggleMenu------------*/
+#courseToggleMenu		{
+  background:url('images/bg_menu.png');
+  border:solid 1px #fff;
+  border-radius:5px; padding:10px 10px 5px;
+  position:absolute;
+  left:0px;
+  top:40px;
+  -moz-border-radius:5px;
+  }
+#courseToggleMenu a, #courseToggleMenu ul	{ color:#fff; }
+#courseToggleMenu ul 					{ margin:0 0 0 35px; padding:0px; }
+#courseToggleMenu img:first-child 		{ margin-left:17px; }
+#courseToggleMenu li 					{ border-top:solid 1px #fff; padding:3px;text-align: left; }
+#courseToggleMenu li:first-child		{ border-top:none; }
+#courseToggleMenu li a					{ display:block; }
+#courseToggleMenu li a:hover 			{ background:#fff; color:#000; }
+#courseToggleMenu li.completed			{ list-style-image:url('../../img/completed.gif'); }
+#courseToggleMenu li.not_attempted		{ list-style-image:url('../../img/not_attempted.gif'); }
+#courseToggleMenu li.incomplete			{ list-style-image:url('../../img/incomplete.gif'); }
+#courseToggleMenu li.failed				{ list-style-image:url('../../img/failed.gif'); }
+#courseToggleMenu li.completed			{ list-style-image:url('../../img/completed.gif'); }
+#courseToggleMenu li.passed				{ list-style-image:url('../../img/passed.gif'); }
+#courseToggleMenu li.succeeded			{ list-style-image:url('../../img/succeeded.gif'); }
+#courseToggleMenu li.browsed			{ list-style-image:url('../../img/completed.gif'); }
+
+/*------------menu, prev, next Buttons------------*/
+#courseHeader .button	{ margin-top: 8px;}
+#courseMainHomeButton	{ margin:5px 0 0 10px; }
+
+/**---iframe---*/
+iframe body				{ background-color:#D6D6D6 !important; }
+
+.scorm_item_highlight {
+    background-color: #A9AAAE;
+    font-weight: bold;    
+}
+
+.scorm_item_highlight a {
+    color: #FFF;
+}

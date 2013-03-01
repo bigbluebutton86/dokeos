@@ -1,0 +1,53 @@
+<?php /*
+for more information: see languages.txt in the lang folder. 
+*/
+$langActivate = "Show";
+$langDeactivate = "Hide";
+$langInLnk  = "Hidden tools";
+$langDelLk = "Do you really want to delete this link?";
+$langCourseCreate  = "Create course";
+$langNameOfTheLink  = "Name of the link";
+$lang_main_categories_list                  = "Main category list";
+$langCourseAdminOnly = "Trainers only";
+$PlatformAdminOnly = "Portal admins only";
+$langCombinedCourse = "Combined course";
+$ToolIsNowVisible = "The tool is now visible.";
+$ToolIsNowHidden = "The tool is now invisible.";
+$EditLink = "Edit link";
+$Blog_management = "Blogs";
+$Forum = "Forums";
+$Course_maintenance = "Backup";
+$TOOL_SURVEY = "Surveys";
+$GreyIcons = "Toolbox";
+$Interaction = "Interaction";
+$Authoring = "Authoring";
+$Administration = "Administration";
+$IntroductionTextUpdated = "Scenario was updated";
+$IntroductionTextDeleted = "Scenario was deleted";
+$SessionIdentifier = "Identifier of session";
+$SessionName = "Session name";
+$SessionCategory = "Category of session";
+$SessionData = "Session data";
+$ActivityOne = "Activity 1";
+$ActivityTwo = "Activity 2";
+$ActivityThree = "Activity 3";
+$ActivityFour = "Activity 4";
+$ActivityFive = "Activity 5";
+$ChapterOne = "Chapter 1";
+$ChapterTwo = "Chapter 2";
+$ChapterThree = "Chapter 3";
+$ChapterFour = "Chapter 4";
+$ChapterFive = "Chapter 5";
+$InteractionOne = "Interaction 1";
+$InteractionTwo = "Interaction 2";
+$InteractionThree = "Interaction 3";
+$InteractionFour = "Interaction 4";
+$InteractionFive = "Interaction 5";
+$WeekOne = "Week 1";
+$WeekTwo = "Week 2";
+$WeekThree = "Week 3";
+$WeekFour = "Week 4";
+$WeekFive = "Week 5";
+$ViewHomeAsLearner = "View as learner";
+$ViewHomeAsTrainer = "View as teacher";
+?>

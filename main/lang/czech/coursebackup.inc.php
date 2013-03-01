@@ -1,0 +1,50 @@
+<?php /*
+for more information: see languages.txt in the lang folder. 
+*/
+$langSelectOptionForBackup = "Prosím zvolte možosti zálohování.";
+$langLetMeSelectItems = "Dovolte mi zvolit &#269;ásti kurzu";
+$langCreateFullBackup = "Vytvo&#345;it kompletní zálohu tohoto kurzu";
+$langCreateBackup = "vytvo&#345;it zálohu";
+$langBackupCreated  = "Byla vytvo&#345;ena záloha tohoto kurzu. P&#345;enos dát za&#269;ne za okamžik. Jest-li Váš p&#345;enos nefunguje, klikn&#283;te na nasledujíci odkaz";
+$langSelectBackupFile = "vyberte soubor se zálohou";
+$langImportBackup = "Importuj zálohu";
+$langImportFullBackup = "Importuj kompletní zálohu";
+$langImportFinished = "Import dokon&#269;en";
+$langEvents = "Události";
+$langAnnouncements = "Oznámení";
+$langDocuments  = "Dokumenty";
+$langTests = "Testy";
+$langLearnpaths = "Learn-paths (sp&#367;sob u&#269;ení)";
+$langCopyCourse = "Kopírovat kurz";
+$langSelectItemsToCopy = "Zvolte položky pro kopírování";
+$langCopyFinished = "Kopírování je dokon&#269;eno";
+$langFullRecycle = "Kompletní recyklace";
+$langRecycleCourse = "Recyklace kurzu";
+$langRecycleFinished = "Recyklace je dokon&#269;ena";
+$langRecycleWarning = "Varování: použitím této funkce smažete n&#283;které &#269;ásti vašeho kurzu, a to nenávratn&#283;. Proto Vám doporu&#269;ujeme ud&#283;lat <a href=\"create_backup.php\">zálohu</a> p&#345;ed použitím tohoto recyklovacího nástroje.";
+$langSameFilename = "Co ud&#283;lat když importováné soubory mají stejné jméno jako existující soubory?";
+$langSameFilenameSkip = "P&#345;esko&#269;it soubory se stejným jménem";
+$langSameFilenameRename = "P&#345;ejmenovat soubor (nap&#345;. Soubor.pdf se stáva Soubor_1.pdf)";
+$langSameFilenameOverwrite = "P&#345;epsat soubor";
+$langSelectDestinationCourse = "Zvolte cílový kurz";
+$langFullCopy  = "Kopírovat všechno";
+$langCourseDescription = "Popis kurzu";
+$langNoResourcesToBackup = "Nejsou zdroje pro zálohování";
+$langNoResourcesInBackupFile = "Nejsou zdroje v souboru zálohy";
+$langSelectResources = "Vybrat zdroje";
+$langNoResourcesToRecycles = "Nejsou zdroje pro recyklaci";
+$langIncludeQuestionPool = "Zhrnout do sbírky otázek";
+$langLocalFile = "lokální soubor";
+$langServerFile = "soubor na serveru";
+$langNoBackupsAvailable = "není p&#345;ístupná žádná záloha";
+$langNoDestinationCoursesAvailable = "Žádný cílový kurz";
+$langBackup = "Záloha";
+$langImportBackupInfo = "Import zálohy. Budete schopni nahrát soubor z vašeho lokálního disku nebo m&#367;žete použít zálohu dostupnou na serveru.";
+$langCreateBackupInfo = "Vytvo&#345;it zálohu tohoto kurzu. M&#367;žete zvolit obsah kurzu a vložit ho zálohovacího souboru.";
+$ToolIntro = "P&#345;edstavení nástroje";
+$UploadError = "Nahrání neúsp&#283;šné, prosím zkontrolujte maximální povolenou velikost souboru a práva adresá&#345;e";
+$DocumentsWillBeAddedToo = "Dokumenty budou také p&#345;idány";
+$ToExportLearnpathWithQuizYouHaveToSelectQuiz = "Pokud chcete exportovat kurz, který obsahuje test, pak si musíte být jisti, že odpovídající testy jsou sou&#269;ástí exportu, tak že jej musíte ozna&#269;it v seznamu test&#367;";
+$ArchivesDirectoryNotWriteableContactAdmin = "Archivní katalog používaný tímto nástrojem není možné p&#345;epsat. Kontaktujte prosím svého admina platformy.";
+$DestinationCourse = "Cílový kurz";
+?>

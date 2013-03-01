@@ -1,0 +1,94 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
+<head>
+	<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+	<title>Dokeos Documentation</title>
+	<link rel="stylesheet" href="../main/css/dokeos2_tablet/default.css" type="text/css" media="screen,projection" />
+	<link rel="shortcut icon" href="../favicon.ico" type="image/x-icon" />
+	<script type="text/javascript" src="../main/inc/lib/javascript/jquery-1.4.2.min.js" language="javascript"></script>
+	<script type="text/javascript" language="javascript">
+		jQuery(document).ready( function($) {
+			// Expand or collapse the help
+			$('#help-link').click(function () {
+				$('#help-content').slideToggle('fast', function() {
+					if ( $(this).hasClass('help-open') ) {
+						$('#help a').css({'backgroundImage':'url("../main/img/screen-options-right.gif")'});
+						$(this).removeClass('contextual-help-open');
+					} else {
+						$('#help a').css({'backgroundImage':'url("../main/img/screen-options-right-up.gif")'});
+						$(this).addClass('help-open');
+					}
+				});
+				return false;
+			});
+		});
+	</script>
+</head>
+
+<body>
+	<div id="header">
+		<div id="header1">
+				<div class="headerinner">
+					<div id="institution">Dokeos 2.0 Documentation</div>
+				</div>
+		</div>
+		<div id="header2">
+			<div class="headerinner">
+				<ul id="dokeostabs">
+					<li><span><a href="../main/install/index.php">Installation</a></span></li>
+					<li id="current"><span><a href="installation_guide.html">Installation Guide</a></span></li>
+				</ul>
+				<div style="clear: both;" class="clear"> </div>
+			</div>
+		</div>
+
+		<div id="header4">
+			<div class="headerinner">
+				<div id="help-content">
+					<strong>General help</strong><br />
+					<a href="../../documentation/installation_guide.html" target="_blank">read the installation guide (the document you are currently looking at)</a><br />
+					<a href="http://dokeos.com/en/manual/installation" target="_blank">Read a more up to date installation manual on http://www.dokeos.com</a><br /><br />
+				</div>
+				<div id="help">
+					<a href="#" style="" id="help-link">Help</a>
+				</div>
+			</div>
+		</div>
+	</div>
+
+	<div id="main">
+		<div class="actions">
+			<a href="readme.html">About Dokeos</a> 
+			<a href="installation_guide.html">Installation Guide</a>
+			<a href="license.html">GPL license</a>
+			<a href="credits.html">Credits</a>
+			<a href="dependencies.html">Dependencies</a>
+			<a href="changelog.html">Changelog</a>
+			<a href="http://www.dokeos.com">Website</a>	
+		</div>
+
+		<div id="content">
+			<h1>About Dokeos 2.0</h1>
+			Synthetic information
+
+			<h1>Installation</h1>
+			<a href="installation_guide.html">English installation guide</a>
+			<a href="installation_guide_es_ES.html">Spanish installation guide</a>
+			<p> Are you interested in translating the installation guide to your own language? The best way to proceed is to ask us on the <a href="http://www.dokeos.com/forum/">Dokeos forum</a>
+			for the latest version – there may be updates to the guide since
+			this version was released – and send new translations off to the <a href="mailto:translation@dokeos.com">translation@dokeos.com</a> email address. </p>
+
+			<h1>License</h1>
+			<a href="license.html">GNU General Public License Version 2</a>
+			<h1>Credits</h1>
+			<p><a href="credits.html">Credits</a></p>
+			<h1>Dependencies</h1>
+			<p><a href="dependencies.html">Dependencies</a></p>
+			<h1>Changelog</h1>
+			<p><a href="changelog.html">Changelog</a></p>
+
+			<div style="font-style: italic; padding-top: 20px;">Contact address: Dokeos, Rue St Honoré, 75001 PARIS, FRANCE, Mail: <a href="mailto:info@dokeos.com">info@dokeos.com</a>, Tel. +33 (0)1 44 55 09 88</div>
+		</div>
+	</div>
+</body>
+</html>

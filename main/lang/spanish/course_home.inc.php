@@ -1,0 +1,51 @@
+<?php /*
+for more information: see languages.txt in the lang folder. 
+*/
+$langActivate = "Activar";
+$langDeactivate = "Desactivar";
+$langInLnk  = "Enlaces desactivados";
+$langDelLk = "¿ Está seguro de querer desactivar esta herramienta ?";
+$langCourseCreate  = "Crear un curso";
+$langNameOfTheLink  = "Nombre del enlace";
+$lang_main_categories_list                  = "Lista de categorías principales";
+$langCourseAdminOnly = "Sólo profesores";
+$PlatformAdminOnly = "Sólo administradores de la plataforma";
+$langCombinedCourse = "Curso combinado";
+$ToolIsNowVisible = "Ahora la herramienta es visible";
+$ToolIsNowHidden = "Ahora la herramienta no es visible";
+$EditLink = "Editar enlace";
+$Blog_management = "Gestión de blogs";
+$Forum = "Foros";
+$Course_maintenance = "Mantenimiento del curso";
+$TOOL_SURVEY = "Encuestas";
+$GreyIcons = "Caja de herramientas";
+$Interaction = "Interacción";
+$Authoring = "Creación de contenidos";
+$Administration = "Administración";
+$IntroductionTextUpdated = "El texto de introducción ha sido actualizado";
+$IntroductionTextDeleted = "El texto de introducción ha sido eliminado";
+$SessionIdentifier = "Identificador de la sesión";
+$SessionName = "Nombre de la sesión";
+$SessionCategory = "Categoría de la sesión";
+$SessionData = "Datos de la sesión";
+$ActivityOne = "Actividad 1";
+$ActivityTwo = "Actividad 2";
+$ActivityThree = "Actividad 3";
+$ActivityFour = "Actividad 4";
+$ActivityFive = "Actividad 5";
+$ChapterOne = "Capítulo 1";
+$ChapterTwo = "Capítulo 2";
+$ChapterThree = "Capítulo 3";
+$ChapterFour = "Capítulo 4";
+$ChapterFive = "Capítulo 5";
+$InteractionOne = "Interacción 1";
+$InteractionTwo = "Interacción 2";
+$InteractionThree = "Interacción 3";
+$InteractionFour = "Interacción 4";
+$InteractionFive = "Interacción 5";
+$WeekOne = "Semana 1";
+$WeekTwo = "Semana 2";
+$WeekThree = "Semana 3";
+$WeekFour = "Semana 4";
+$WeekFive = "Semana 5";
+?>

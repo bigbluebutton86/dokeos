@@ -1,0 +1,40 @@
+<h3>
+	<?php echo $this->question ?> <i>(<?php echo get_lang('MultipleAnswer') ?>)</i>
+</h3>
+<table class="data_table">
+	<tr class="row_odd">
+		<th width="30"></th>
+		<th><?php echo get_lang('Answer') ?></th>
+		<th width="200"></th>
+		<th width="50"><?php echo get_lang('Percent') ?></th>
+		<th width="50"><?php echo get_lang('Total') ?></th>
+	</tr>
+	<?php $trClass = 'row_even' ?>
+	<tr class="<?php echo $trClass ?>">
+		<td></td>
+		<td><?php echo get_lang('AnsweredNothing') ?></td>
+		<td>
+			<?php Graphics::insert_static_progress_bar($o_answer->stats[0]['average'], 200); ?>
+		</td>
+		<td><?php echo number_format($o_answer->stats[0]['average'], 0) ?>%</td>
+		<td><?php echo intval($o_answer->stats[0]['total']) ?></td>
+	</tr>
+	<?php foreach($o_answer->answer as $answerId => $answerTitle) : ?>
+	<?php $trClass = $trClass == 'row_odd' ? 'row_even' : 'row_odd'; ?>
+	<tr class="<?php echo $trClass?>">
+		<td align="center" valign="middle">
+			<?php if($o_answer->correct[$answerId]) : ?>
+				<img src="<?php echo api_get_path(WEB_IMG_PATH) ?>checkok.png" />
+			<?php endif; ?>
+		</td>
+		<td><?php echo $answerTitle ?></td>
+		<td>
+			<?php Graphics::insert_static_progress_bar($o_answer->stats[$answerId]['average'], 200); ?>
+		</td>
+		<td>
+			<?php echo number_format($o_answer->stats[$answerId]['average'], 0) ?>%
+		</td>
+		<td><?php echo intval($o_answer->stats[$answerId]['total']) ?></td>
+	</tr>
+	<?php endforeach; ?>
+</table>

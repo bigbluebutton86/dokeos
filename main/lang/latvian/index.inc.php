@@ -1,0 +1,57 @@
+<?php /*
+for more information: see languages.txt in the lang folder. 
+*/
+$langInvalidId = "Pieteikties neizdev&#257;s - nepareizs lietot&#257;jv&#257;rds vai parole.";
+$langWelcome = "Br&#299;vi pieejamo kursu saraksts.  P&#257;r&#275;jiem kursiem ir nepieciešams lietot&#257;jv&#257;rds un parole, kuru J&#363;s varat ieg&#363;t  noklikš&#311;inot uz  \'re&#291;istr&#275;ties\'. Doc&#275;t&#257;ji var izveidot kursus re&#291;istr&#275;joties, p&#275;c tam izv&#275;loties \'Izveidot jaunu kursu\'.";
+$langPass = "Parole";
+$langEnter = "Pieteikties (Enter)";
+$langReg = "Re&#291;istr&#257;cija";
+$langMenu  = "Izv&#275;lne";
+$langAdvises = "Padomi";
+$langCourseDoesntExist = "<b>Uzman&#299;bu :</b> Šis kurss neeksist&#275;";
+$langGetCourseFromOldPortal = "Klikš&#311;ini šeit, lai sav&#257;ktu šo kursu no vec&#257; port&#257;la";
+$langOtherCourses = "Kursu saraksts";
+$langSupportForum = "Atbalsta forums";
+$langCategories  = "Noda&#316;as";
+$langBackToHomePage  = "Atpaka&#316; uz s&#257;kuma lapu";
+$lang_No_course_publicly_available  = "Nav neviena br&#299;vi pieejama kursa ";
+$langLostPassword  = "Aizmirsusies parole";
+$lang_edit_my_course_list  = "Main&#299;t manu kursu sarakstu";
+$langAgenda  = "Pl&#257;not&#257;ja n&#257;kamie ieraksti";
+$langValvas  = "P&#275;d&#275;jie pazi&#326;ojumi";
+$langUp  = "iepriekš&#275;jais l&#299;menis";
+$langCatList  = "Noda&#316;as";
+$langCourseList  = "Kursu saraksts";
+$langHelptwo = "Pal&#299;dz&#299;ba";
+$langRegAll = "re&#291;istr&#275;t";
+$EussMenu = "izv&#275;lne";
+$Opinio = "padoms";
+$Intranet = "Iekšt&#299;kls";
+$Englin = "Ang&#316;u valoda";
+$langInvalidForSelfRegistration = "Neveiksm&#299;ga pieteikšan&#257;s - ja neesat re&#291;istr&#275;jies, J&#363;s to varat izdar&#299;t aizpildot <a href=claroline/auth/inscription.php>re&#291;istr&#257;cijas formu</a>";
+$langSubCat = "apakšnoda&#316;as";
+$langMenuGeneral = "Galven&#257; Izv&#275;lne";
+$langMenuUser = "Lietot&#257;js";
+$langMenuAdmin = "Platformas Administrators";
+$langUsersOnLineList = "Šobr&#299;d tiešsaist&#275;";
+$langTotalOnLine = "Kop&#257; tiešsaist&#275;";
+$langRefresh = "atjaunin&#257;t lapu";
+$langMe = "es";
+$langSystemAnnouncements = "Sist&#275;mas pazi&#326;ojumi";
+$langHelpMaj = "Pal&#299;dz&#299;ba";
+$langNotRegistered = "Nav re&#291;istr&#275;ts";
+$Login = "Login";
+$langRegisterForCourse = "Pieteikties kursam";
+$langUnregisterForCourse = "Atteikties no kursa";
+$langCombinedCourse = "Kombin&#275;tais kurss - ";
+$Platform = "Platforma";
+$Refresh = "Atjaunin&#257;t";
+$TotalOnLine = "kop&#257; lietot&#257;ju tiešsaist&#275;";
+$langCourseClosed = "(šis kurss šobr&#299;d nav pieejams)";
+$langCompetences = "Kompetences";
+$langDiplomas = "Diplomi";
+$langTeach = "Ko vi&#326;š/a var doc&#275;t";
+$langProductions = "Ražojumi";
+$langSendChatRequest = "Uzaicin&#257;t šo personu uz sarunu p&#316;&#257;p&#257;tuv&#275; (&#269;at&#257;)";
+$langRequestDenied = "Uzaicin&#257;jums tika noraid&#299;ts.";
+?>
